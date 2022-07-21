@@ -234,20 +234,6 @@ hr{
 
 /* Ressponsive for mobile devices */
 
-@media  only screen and(max-width: 688px) {
-    .container{
-        width: 100%;
-        }
-    
-    .top-banner, .nav-article, .match-transfer, .footer, .footer-menu, .flags, a{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        
-    }
-    .nav-article, .footer, .footer-menu{
-        flex-direction: column;
-    }
-}
 
 /* Ressponsive for tablet devices */
 
