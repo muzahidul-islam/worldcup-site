@@ -234,28 +234,20 @@ hr{
 
 /* Ressponsive for mobile devices */
 
-@media only screen and (max-width: 688px) {
+@media  only screen and(max-width: 688px) {
     .container{
-        width: 334px;
-        height: 472px;
-        padding: 0 20px;
-    }
-    .top-banner{
-        display: flex;
-        flex-direction: column;
-        background-color: #000 ;
-
-        color: #FFFFFF;
-        justify-content: center;
-        border-radius: 30px;
-    }
-    .top-banner img{
         width: 100%;
-        height: auto;
-        position: relative;
+        }
+    
+    .top-banner, .nav-article, .match-transfer, .footer, .footer-menu, .flags, a{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
     }
-    .show-banner{
-        display: flex;
+    .nav-article, .footer, .footer-menu{
         flex-direction: column;
     }
 }
+
+/* Ressponsive for tablet devices */
+
